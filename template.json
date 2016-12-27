@@ -78,8 +78,8 @@
     }
   },
   "variables": {
-    "vnetlink": "[concat('https://raw.githubusercontent.com/xiaoyingLJ/MultipleVM/master/',parameters('Create new VNET or use Existing'),'vnet.json')]",
-    "templatelink": "[concat('https://raw.githubusercontent.com/xiaoyingLJ/MultipleVM/master/', 'existingvnet-azuredeploy-vm.json')]"
+    "vnetlink": "[concat('https://raw.githubusercontent.com/xiaoyingLJ/GatewayVM/master/',parameters('Create new VNET or use Existing'),'vnet.json')]",
+    "templatelink": "[concat('https://raw.githubusercontent.com/xiaoyingLJ/GatewayVM/master/', 'existingvnet-azuredeploy-vm.json')]"
   },
   "resources": [
     {
