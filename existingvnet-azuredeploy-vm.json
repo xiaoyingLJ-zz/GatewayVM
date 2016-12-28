@@ -57,7 +57,7 @@
     {
       "name": "[variables('diagnosticStorageName')]",
 	  "type": "Microsoft.Storage/storageAccounts",
-	  "apiVersion": "2015-06-15",
+	  "apiVersion": "2016-01-01",
 	  "location": "[resourceGroup().location]",
 	  "sku": {
         "name": "Standard_LRS"
