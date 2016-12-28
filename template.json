@@ -106,6 +106,9 @@
       "apiVersion": "2015-01-01",
       "name": "[concat(parameters('Name'), 'Template')]",
       "type": "Microsoft.Resources/deployments",
+      "dependsOn": [
+        "[resourceId('Microsoft.Resources/deployments/', concat(parameters('Name'), 'vnetTemplate'))]"
+      ],
       "properties": {
         "mode": "incremental",
         "templateLink": {
